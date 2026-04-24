@@ -17,6 +17,7 @@ function Countries() {
   return (
     <div>
         <select>
+            <option>Select a country</option>
             {countries.map((country) => (
               <option key={country.name.common} value={country.name.common}>
                 {country.name.common}
